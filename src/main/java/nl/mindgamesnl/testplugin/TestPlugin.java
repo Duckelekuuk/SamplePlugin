@@ -9,9 +9,4 @@ public final class TestPlugin extends JavaPlugin {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new JoinListener(), this);
     }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
 }
